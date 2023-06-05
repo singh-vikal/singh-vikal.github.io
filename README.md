@@ -1,4 +1,4 @@
-# vikalsingh.netlify.app
+# singh-vikal.github.io
 Link to the Site: https://singh-vikal.github.io/
 
 This is my personal website. It is made using [HTML Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML), [HTML](https://www.w3schools.com/html/) with [TailwindCSS](https://tailwindcss.com) and [Bootstrap](https://getbootstrap.com/).
