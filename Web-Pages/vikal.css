@@ -18,7 +18,7 @@
 }
 
 body {
-        color: #f2f1b1;
+        color: #ebedb4;
     /* background: black; */
     background-color:  #1e1f21;
 }
@@ -65,7 +65,7 @@ html {
     background-color: #1e1f21;
     
     font-size: 70px;
-    color : #f2f1b1;
+    color: #ebedb4;
     position: relative;
     /* background-image: linear-gradient(to bottom , #0d1417, black); */
     margin-top: 10px;
@@ -89,7 +89,8 @@ html {
     height: auto;
    font-size: 18px;
     background-color: #1e1f21;
-        color: #f2f1b1;
+    
+color: #ebedb4;
     margin-bottom: 45px;
     margin-top: auto;
     margin-left: auto;
@@ -115,7 +116,8 @@ html {
     margin-left: auto;
     margin-right: auto;
 
-    color:     #f2f1b1;
+    
+color: #ebedb4;
  /* padding: top right botth left; */
    padding: 60px 20px 60px 20px
 
@@ -135,7 +137,7 @@ tr>*+* {
 
 
 .thanks {
-    color: #babaf0;
+    color: #ebedb4;
 
     background-color: #1e1f21;
     padding: 40px 45px 40px 48px;
