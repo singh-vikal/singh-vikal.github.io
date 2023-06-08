@@ -18,7 +18,7 @@
 }
 
 body {
-        color: #ebedb4;
+        color: #e0e0c3;
     /* background: black; */
     background-color:  #1e1f21;
 }
@@ -65,7 +65,7 @@ html {
     background-color: #1e1f21;
     
     font-size: 70px;
-    color: #ebedb4;
+    color: #e0e0c3;
     position: relative;
     /* background-image: linear-gradient(to bottom , #0d1417, black); */
     margin-top: 10px;
@@ -90,7 +90,7 @@ html {
    font-size: 18px;
     background-color: #1e1f21;
     
-color: #ebedb4;
+color: #e0e0c3;
     margin-bottom: 45px;
     margin-top: auto;
     margin-left: auto;
@@ -117,7 +117,7 @@ color: #ebedb4;
     margin-right: auto;
 
     
-color: #ebedb4;
+color: #e0e0c3;
  /* padding: top right botth left; */
    padding: 60px 20px 60px 20px
 
@@ -137,7 +137,7 @@ tr>*+* {
 
 
 .thanks {
-    color: #ebedb4;
+    color: #e0e0c3;
 
     background-color: #1e1f21;
     padding: 40px 45px 40px 48px;
