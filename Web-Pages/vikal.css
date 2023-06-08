@@ -18,7 +18,7 @@
 }
 
 body {
-        color: #c0c0cf;
+        color: #f2f1b1;
     /* background: black; */
     background-color:  #1e1f21;
 }
@@ -63,8 +63,9 @@ html {
     font-size: 20px;
 
     background-color: #1e1f21;
-    color: #ffffff;
+    
     font-size: 70px;
+    color : #f2f1b1;
     position: relative;
     /* background-image: linear-gradient(to bottom , #0d1417, black); */
     margin-top: 10px;
@@ -88,7 +89,7 @@ html {
     height: auto;
    font-size: 18px;
     background-color: #1e1f21;
-        color: #c0c0cf;
+        color: #f2f1b1;
     margin-bottom: 45px;
     margin-top: auto;
     margin-left: auto;
@@ -114,8 +115,8 @@ html {
     margin-left: auto;
     margin-right: auto;
 
-    color: #c0c0cf;    
-    /* padding: top right botth left; */
+    color:     #f2f1b1;
+ /* padding: top right botth left; */
    padding: 60px 20px 60px 20px
 
     /* padding: top/bottom right/left; */
