@@ -88,6 +88,7 @@ html {
     height: auto;
    font-size: 18px;
     background-color: #1e1f21;
+color: #c0c0cf;
     margin-bottom: 45px;
     margin-top: auto;
     margin-left: auto;
@@ -112,7 +113,8 @@ html {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    
+
+color: #c0c0cf;    
     /* padding: top right botth left; */
    padding: 60px 20px 60px 20px
 
