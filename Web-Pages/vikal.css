@@ -18,7 +18,7 @@
 }
 
 body {
-    color: #c0c0cf;
+    color: #ffffcc;
     /* background: black; */
     background-color:  #1e1f21;
 }
@@ -88,7 +88,7 @@ html {
     height: auto;
    font-size: 18px;
     background-color: #1e1f21;
-color: #c0c0cf;
+color: #ffffcc;
     margin-bottom: 45px;
     margin-top: auto;
     margin-left: auto;
@@ -114,7 +114,7 @@ color: #c0c0cf;
     margin-left: auto;
     margin-right: auto;
 
-color: #c0c0cf;    
+color: #ffffcc;
     /* padding: top right botth left; */
    padding: 60px 20px 60px 20px
 
