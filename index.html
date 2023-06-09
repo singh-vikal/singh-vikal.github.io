@@ -1,141 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="Web-Pages/asset/vss logo.jpg">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is description">
-  <meta name="keywords" content="html,web development,css,javascript">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-  <meta name="ROBOTS" content="INDEX,FOLLOW">
-  <title>Vikal S. </title>
-
-  <!-- this is how we add css-->
-  <link rel="stylesheet" href="main.css">
-
-  <!-- this is how we add js-->
-  <link src="vikal.js">
-
-
-
-</head>
-
-<body>
-  <!-- Navigation bar section -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-3 "
-    style="font-family:Inter; font-weight:900;position: sticky; top: 0; z-index:1;">
-    <a class="navbar-brand text-white py-2 pl-3 hover-underline-animation  pr-4 rounded md:border-0"
-     href="https://singh-vikal.github.io/"Vikal S.</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     
-    
-  </nav>
+    <title>Bibhuti Bhushan Portfolio</title>
+  </head>
+  <body>
 
-  <section id="home" class="welcome sm:max-h-full h-full">
-    <center>
-      <div class="flex sm:p-24 p-4 sm:justify-start justify-center align-items-center sm:bottom-0">
-        <div class=" text-left ">
-          <div class="font-bold">
+    
+    <!-- Navigation bar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 " style="font-family:Inter; font-weight:900;position: sticky; top: 0; z-index:1;">
+        <a class="navbar-brand" href="#">BBS</a>
+        <button class="navbar-toggler" type=bg-dark bg-gradient"button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="Web-Pages/index.html" class="nav-link" style="text-decoration:none;">Articles</a>
+               
+                
+            </li>
+            <li class="nav-item">
+              <a href="Web-Pages/index2.html" class="nav-link" style="text-decoration:none;">Resume</a>
+               
+                
+            </li>
+            <li class="nav-item">
+              <a href="Web-Pages/index3.html" class="nav-link" style="text-decoration:none;">Projects</a>
+               
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a>
+            </li>
             
-             
+          </ul>
+        </div>
+      </nav>
+
+      <div class="d-flex p-2 bd-highlight justify-content-around " id="intropanel"style="">
+      <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3229471/learn-coding-clipart-sm.png" style="display: block;
+      max-width:400px;
+      max-height:500px;
+      width: 100%;
+      height: 100%;">
+      <div id="introinfo">
+        <h1 style="font-weight: 900;">
+            Hi, I am Bibhuti
+            <small class="text-muted">clueless guy</small>
+        </h1>
+        <p class="lead" style="font-size: medium; font-weight: 500;  margin-top: 5vh; margin-bottom: 5vh;">Hello, I am a technology enthusiast and an aspiring python developer.
+        I was interested into computers since my childhood. I was intrigued by the wonders that computer used to do back in those days and 
+    even today. I used to be curious about the working of the microchips, the rendering of graphics and all sorts magical thing 
+todays gadgets do. All of this lead me to the world of computers and here i am, exploring the possibilites of using the raw computing power
+for mankind and more awesome stuff. </p>
+
+           <div class="btngrp"><button type="button" class="btn btn-dark" id="projectbtn" style="margin:auto" onclick="window.open('#projectlist', '_self')">Projects</button>
+            <button type="button" class="btn btn-success" onclick="window.open('https://github.com/Bibhuti2000','_self')">Github</button>
+            <button type="button" class="btn btn-warning"  onclick="window.open('https://drive.google.com/file/d/1KiO8FtTamnqxRlzXTWVobsczfMa9bTKW/view','_self')">Resume</button>
+          </div> 
+        
+
+      </div>
+      </div>
+
+    <div id="projectlist" style="display: flex; flex-wrap: wrap;">
+
+
+      
+      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000/PROgressBrar','_self')">
+        <div class="card-header">HTML, CSS, JS</div>
+        <div class="card-body">
+          <h5 class="card-title">PROgress Bar</h5>
+          <p class="card-text">Animated progress bar made using pure css and javascript</p>
+        </div>
+      </div>
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000/PassKey-genereator','_self')">
+        <div class="card-header">HTML, CSS, JS</div>
+        <div class="card-body">
+          <h5 class="card-title">PassKey Generator</h5>
+          <p class="card-text">A simple password generator made using pure css and javascript. </p>
+        </div>
+      </div>
+      <div class="card text-white bg-danger mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000','_self')">
+        <div class="card-header">HTML, CSS(Bootstrap v4), JS</div>
+        <div class="card-body">
+          <h5 class="card-title">Portfolio webpage</h5>
+          <p class="card-text">Clean and simple portfolio webpage made using Bootstrap, A component framework.</p>
+        </div>
+      </div>
+      
+      <div class="card text-white bg-info mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000/Dynamic-Cards','_self')">
+        <div class="card-header">HTML, CSS, JS</div>
+        <div class="card-body">
+          <h5 class="card-title">Dynamic cards</h5>
+          <p class="card-text">Html div unfold like cards with animations, JS is used to associate info with to each card.</p>
+        </div>
+      </div>
+      <div class="card bg-light mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000','_self')">
+        <div class="card-header">Python, CV, Mediapipe, pyAutogui</div>
+        <div class="card-body">
+          <h5 class="card-title">Gesture Pointer</h5>
+          <p class="card-text">Uses hand gestures to control cursor without actual hardware mouse.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;" onclick="window.open('https://github.com/Bibhuti2000','_self')">
+        <div class="card-header">python, scikit, flask</div>
+        <div class="card-body">
+          <h5 class="card-title">Car evaluation</h5>
+          <p class="card-text">A machine learning model for evaluation of car, deployed using flask</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Email : <a href="bibhutibhushansaha2000@gmail.com" style="text-decoration: none;">Click here</a><br>
+            phone : +919644588233<br>
+            scroll to footer for social.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
-<div>
-        <img src="Web-Pages/asset/im.jpeg" alt="My LOGO" class="h-2 w-2 center" width="320" height="220">
-        
-        <h1 class="text-base" style="font-size: 40px;"> <span
-
-"font-size: 40px">Vikal S.</span></h1>
-        <p class="py-4"> 21 | Self-taught Programmer | Student | FOSS | Linux</p>
-        
-    <p class="py-4">    “Best practices”
-          don't actually work. </p>
-      
-
-
-
-<!-- Twitter -->
-<i class="fab fa-twitter"></i>
-
-<!-- Google -->
-<i class="fab fa-google"></i>
-
-<!-- Linkedin -->
-<i class="fab fa-linkedin-in"></i>
-
-<!-- Github -->
-<i class="fab fa-github"></i>
-</div>
-
-      <div class="btngrp">
-
-          <button type="button" class="btn btn-dark" style="margin:5px"
-          onclick="window.open('Web-Pages/index5.html','_self')">About Me</button>
-          <button type="button" class="btn btn-dark" style="margin:5px"
-          onclick="window.open('Web-Pages/index2.html','_self')">Resume</button>
-          <button type="button" class="btn btn-dark" id="projectbtn" style="margin:5px"
-          onclick="window.open('https://singh-vikal.github.io/blog.singh-vikal.github.io/', '_self')">Blogs</button>
-          
-          
       </div>
-     
-      </div>
-    
-    </center>
-
-   
-
-  </section>
-
-
-
-  
-
-  
-
-  
-
-  
-            
-            
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-  <footer id="contact" class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgb(0, 0, 0, 0.2);">
-      © 2023 Copyleft:
-      <a class="text-white">Vikal Singh</a>
-      <p>This website is free of any advertisements, tracking or malware.</p>
-   
     </div>
- 
-  </footer>
 
-
 
-</body>
+    <div class=" text-center text-white foot">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
 
+      <p>This website is free of any advertisements or tracking.</p><p>Proudly runs on electricity ⚡️</p><div class="flex flex-row gap-4"></div>
+      <!-- Grid container -->
+    
+     
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  </div>
 </html>
