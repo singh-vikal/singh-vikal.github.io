@@ -39,7 +39,7 @@ html {
 
     background-color: #1e1f21;
     -webkit-backdrop-filter: blur(35px);
-    
+    font-size: 20px;
     backdrop-filter: blur(20px);
     transition: 1.5s;
 
@@ -63,8 +63,6 @@ html {
     font-size: 20px;
 
     background-color: #1e1f21;
-    
-    font-size: 70px;
     color: #e0e0c3;
     position: relative;
     /* background-image: linear-gradient(to bottom , #0d1417, black); */
