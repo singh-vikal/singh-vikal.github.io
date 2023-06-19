@@ -1,5 +1,5 @@
 # singh-vikal.github.io
-Link to the Site: https://singh-vikal.github.io/
+Link to the Site: https://rorqualcy.github.io/
 
 This is my personal website. It is made using [HTML Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML), [HTML](https://www.w3schools.com/html/) with [TailwindCSS](https://tailwindcss.com) and [Bootstrap](https://getbootstrap.com/).
 
@@ -10,7 +10,7 @@ First install a IDE you like.
 Clone the repository to your desired location.
 
 ```sh
-git clone https://github.com/singh-vikal/singh-vikal.github.io
+git clone https://github.com/rorqualcy/rorqualcy.github.io
 ```
 
 Change your directory to the cloned repository and install the extra softwares and dependencies.
