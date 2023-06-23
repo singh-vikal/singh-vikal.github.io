@@ -10,7 +10,7 @@ First install a IDE you like.
 Clone the repository to your desired location.
 
 ```sh
-git clone https://github.com/rorqualcy/rorqualcy.github.io
+git clone https://github.com/singh-vikal/vs
 ```
 
 Change your directory to the cloned repository and install the extra softwares and dependencies.
